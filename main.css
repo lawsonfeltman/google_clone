@@ -1,0 +1,193 @@
+/*BEGIN CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*                                    */
+/*END CSS RESET, BEGIN LAWSON'S CSS*/
+/*                                    */
+
+body {
+    font-family: arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+#header-container {
+    position: relative;
+    height: 60px;
+}
+#header-nav {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    margin-right: 30px;
+}
+#header-nav li a {
+    color: #404040;
+    font-size: .8em;
+}
+#grid-pic-div {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+}
+#grid-pic-div img {
+    position: absolute;
+    margin: auto;
+    top: -3px;
+    left: -3px;
+    right: 0;
+    bottom: 0;
+}
+#sign-in-button-wrap {
+    width: 71px;
+    border: 1px #4285f4;
+    border-radius: 2px;
+    line-height: 28px;
+    display: inline-block;
+    font-weight: bold;
+    background: #4285f4;
+    background: linear-gradient(top, #4387fd, #4683ea);
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+}
+#sign-in-button-wrap li a {
+    color: white;
+    padding-left: 8px;
+}
+#logo-container {
+    position: relative;
+    width: 269px;
+    height: 95px;
+    margin: 130px auto 0 auto;
+}
+#searchfield {
+    display: block;
+    margin: 20px auto;
+    background-position: right; 
+    background: #FFFFFF url(img/microphone.png) no-repeat right;
+    background-size: 22px 25px;
+    height: 30px;
+    width: 572px;
+    border-color: #d2d2d2;
+    border-width: 1px;
+    border-radius: 2px;
+    outline: none;
+}
+#searchfield:hover {
+    border-color: #666;
+}
+#searchfield:focus {
+    outline: none;
+    border-color: #0266C8;
+}
+#button-container {
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+#button-wrapper {
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+}
+#button-wrapper button {
+    position: relative;
+    height: 29px;
+    width: auto;
+    color: #444;
+    background: #f2f2f2;
+    font-size: .7em;
+    font-weight: bold;
+    margin: 0 8px;
+    border: 1px solid #E4E4E4;
+    border-radius: 2px;
+}
+#footer-container {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    background-color: #F3F3F3;
+    border-top: solid 1px #E4E4E4;
+}
+#footer-container a {
+    color: #666;
+    font-size: .8em;   
+}
+#footer-container ul li {
+    margin: 12px 7px 0 7px;
+}
+#footer-nav-left {
+    position: absolute;
+    left: 16px;
+}
+#footer-nav-right {
+    position: absolute;
+    right: 16px;
+}
+@media (min-width:1081px) {
+    #page-wrap {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media (max-width:1080px) {
+    #page-wrap {
+        width: 1080px;
+    }
+    #footer-container {
+        width: 1080px;
+    }
+}
+@media (min-height:628px) {
+    #page-wrap {
+        height: 627px;
+    }
+}
