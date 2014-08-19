@@ -93,8 +93,10 @@ li {
     display: inline-block;
     font-weight: bold;
     background: #4285f4;
-    background: linear-gradient(top, #4387fd, #4683ea);
-    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient(#4387fd, #4683ea);
+    background: -o-linear-gradient(#4387fd, #4683ea);
+    background: -moz-linear-gradient(#4387fd, #4683ea);
+    background: -webkit-linear-gradient(#4387fd, #4683ea);
 }
 #sign-in-button-wrap li a {
     color: white;
